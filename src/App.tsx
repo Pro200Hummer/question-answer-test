@@ -5,8 +5,12 @@ import {Input} from "./common/components/Input/Input";
 export const App = () => {
   return (
     <div>
-        {data.data.map(i => <div>{i.question}</div>)}
-      <Input/>
+        {data.data.map(i => {
+            return <>
+                <div key={i.id}>{i.question}</div>
+                <Input/>
+            </>
+        })}
     </div>
   )
 };

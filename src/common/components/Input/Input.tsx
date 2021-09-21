@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {FC} from 'react';
 
+type InputPropsType = {
 
-export const Input = () => {
+}
+
+export const Input: FC<InputPropsType> = () => {
     return <>
 
         <input type="text" placeholder={"*Введите текст"}/>
