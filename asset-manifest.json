@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/question-answer-test/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/question-answer-test/static/js/main.3bcf6eed.chunk.js",
-    "main.js.map": "/question-answer-test/static/js/main.3bcf6eed.chunk.js.map",
-    "runtime-main.js": "/question-answer-test/static/js/runtime-main.883592db.js",
-    "runtime-main.js.map": "/question-answer-test/static/js/runtime-main.883592db.js.map",
-    "static/js/2.7b2ccdeb.chunk.js": "/question-answer-test/static/js/2.7b2ccdeb.chunk.js",
-    "static/js/2.7b2ccdeb.chunk.js.map": "/question-answer-test/static/js/2.7b2ccdeb.chunk.js.map",
-    "static/js/3.92f84dd5.chunk.js": "/question-answer-test/static/js/3.92f84dd5.chunk.js",
-    "static/js/3.92f84dd5.chunk.js.map": "/question-answer-test/static/js/3.92f84dd5.chunk.js.map",
+    "main.css": "/question-answer-test/static/css/main.46a03c6e.chunk.css",
+    "main.js": "/question-answer-test/static/js/main.1c1fef66.chunk.js",
+    "main.js.map": "/question-answer-test/static/js/main.1c1fef66.chunk.js.map",
+    "runtime-main.js": "/question-answer-test/static/js/runtime-main.75999483.js",
+    "runtime-main.js.map": "/question-answer-test/static/js/runtime-main.75999483.js.map",
+    "static/js/2.28c0c18e.chunk.js": "/question-answer-test/static/js/2.28c0c18e.chunk.js",
+    "static/js/2.28c0c18e.chunk.js.map": "/question-answer-test/static/js/2.28c0c18e.chunk.js.map",
+    "static/js/3.aac8e4ed.chunk.js": "/question-answer-test/static/js/3.aac8e4ed.chunk.js",
+    "static/js/3.aac8e4ed.chunk.js.map": "/question-answer-test/static/js/3.aac8e4ed.chunk.js.map",
     "index.html": "/question-answer-test/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/question-answer-test/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.7b2ccdeb.chunk.js.LICENSE.txt": "/question-answer-test/static/js/2.7b2ccdeb.chunk.js.LICENSE.txt"
+    "static/css/main.46a03c6e.chunk.css.map": "/question-answer-test/static/css/main.46a03c6e.chunk.css.map",
+    "static/js/2.28c0c18e.chunk.js.LICENSE.txt": "/question-answer-test/static/js/2.28c0c18e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.883592db.js",
-    "static/js/2.7b2ccdeb.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3bcf6eed.chunk.js"
+    "static/js/runtime-main.75999483.js",
+    "static/js/2.28c0c18e.chunk.js",
+    "static/css/main.46a03c6e.chunk.css",
+    "static/js/main.1c1fef66.chunk.js"
   ]
 }
