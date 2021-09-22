@@ -1,20 +1,37 @@
-import React, {ChangeEvent, FC} from 'react';
+import React, {ChangeEvent, FC, useState} from 'react';
+import {AnswerType} from "../../../state/app-reducer";
 
 type InputPropsType = {
-    onChange?: (value: string) => void
+    setAnswerCallback: (answer: AnswerType) => void
+    id: number
 }
 
+
 export const Input: FC<InputPropsType> = props => {
+
     const {
-        onChange,
+        id,
+        setAnswerCallback,
     } = props
 
+    const [value, setValue] = useState<string>('')
+
+
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        onChange && onChange(e.currentTarget.value)
+        setValue(e.currentTarget.value)
+    }
+
+    const onBlurHandler = () => {
+        setAnswerCallback({id, answer: value})
+        setValue('')
     }
 
     return <>
 
-        <input type="text" placeholder={"*Введите текст"} onChange={onChangeCallback}/>
+        <input
+            type="text"
+            placeholder={"*Введите текст"}
+            onChange={onChangeCallback}
+            onBlur={onBlurHandler}/>
     </>
 };
