@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/question-answer-test/static/css/main.46a03c6e.chunk.css",
-    "main.js": "/question-answer-test/static/js/main.1c1fef66.chunk.js",
-    "main.js.map": "/question-answer-test/static/js/main.1c1fef66.chunk.js.map",
+    "main.js": "/question-answer-test/static/js/main.d5cd6cb3.chunk.js",
+    "main.js.map": "/question-answer-test/static/js/main.d5cd6cb3.chunk.js.map",
     "runtime-main.js": "/question-answer-test/static/js/runtime-main.75999483.js",
     "runtime-main.js.map": "/question-answer-test/static/js/runtime-main.75999483.js.map",
     "static/js/2.28c0c18e.chunk.js": "/question-answer-test/static/js/2.28c0c18e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.75999483.js",
     "static/js/2.28c0c18e.chunk.js",
     "static/css/main.46a03c6e.chunk.css",
-    "static/js/main.1c1fef66.chunk.js"
+    "static/js/main.d5cd6cb3.chunk.js"
   ]
 }
