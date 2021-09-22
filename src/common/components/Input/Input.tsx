@@ -4,6 +4,7 @@ import {AnswerType} from "../../../state/app-reducer";
 type InputPropsType = {
     setAnswerCallback: (answer: AnswerType) => void
     id: number
+    className: string
 }
 
 
@@ -12,6 +13,7 @@ export const Input: FC<InputPropsType> = props => {
     const {
         id,
         setAnswerCallback,
+        className
     } = props
 
     const [value, setValue] = useState<string>('')
@@ -27,8 +29,8 @@ export const Input: FC<InputPropsType> = props => {
     }
 
     return <>
-
         <input
+            className={className}
             type="text"
             placeholder={"*Введите текст"}
             onChange={onChangeCallback}
