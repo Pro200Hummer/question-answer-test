@@ -36,7 +36,7 @@ export const App = () => {
 
                 })}
             </div>
-            <button onClick={onClickHandler} className={style.btnSend}>Отправить</button>
+            <button onClick={onClickHandler} className={style.btnSend}>Send</button>
         </div>
     )
 };
